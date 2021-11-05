@@ -1,0 +1,185 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 120px) 10px;
+    grid-gap: 10px;
+    font-family: cursive;
+}
+
+.content {
+    border: 2px solid rgb(165, 190, 129);
+    box-shadow: 3px 3px 5px rgb(70, 88, 41);
+    border-radius: 4px;
+}
+
+.content1 {
+    background-color: rgb(165, 190, 129);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.content8 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: rgb(230, 230, 230);
+}
+
+input {
+    width: 100px;
+}
+
+.content23 {
+    grid-column: 1/2;
+    grid-row: 4/8;
+    background-color: rgb(230, 230, 230);
+    font-size: 0.8rem;
+}
+
+.content16 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-image: url(./images/mevlana.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+    z-index: -1;
+}
+
+.content2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(96, 174, 238, 0.5);
+    border: none;
+}
+
+.content3 {
+    grid-column: 4/6;
+    grid-row: 1/3;
+    background-image: url(./images/meram.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+    z-index: -1;
+}
+
+.content9 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    background-color: rgba(216, 207, 122, 0.5);
+    border: none;
+}
+
+.content4 {
+    grid-column: 6/8;
+    grid-row: 1/4;
+    background-image: url(./images/aziziye.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content13 {
+    grid-column: 7/8;
+    grid-row: 3/4;
+    background-color: rgba(85, 21, 10, 0.5);
+    border: none;
+}
+
+.content5 {
+    grid-column: 2/4;
+    grid-row: 3/6;
+    background-image: url(./images/genel.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content6 {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    background-image: url(./images/gece.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content10 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background-color: rgba(143, 131, 255, 0.5);
+    border: none;
+}
+
+.content14 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: rgba(250, 147, 128, 0.4);
+    border: none;
+}
+
+.content15 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-image: url(./images/selçuklu\ devleti.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 65px;
+    color: darkgreen;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.content7 {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background-image: url(./images/karamanoğulları.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 65px;
+    color: #17837a;
+    font-weight: bold;
+}
+
+.content12 {
+    grid-column: 5/8;
+    grid-row: 4/6;
+    background-image: url(./images/çatalhöyük.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content17 {
+    grid-column: 7/8;
+    grid-row: 5/6;
+    background-color: rgba(212, 128, 49, 0.5);
+    border: none;
+}
+
+.content21 {
+    grid-column: 2/6;
+    grid-row: 6/8;
+    background-image: url(./images/alaaddin\ tepesi.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content22 {
+    grid-column: 2/4;
+    grid-row: 7/8;
+    background-color: rgba(123, 255, 111, 0.4);
+    border: none;
+}
+
+.content11 {
+    grid-column: 6/8;
+    grid-row: 6/8;
+    background-image: url(./images/sille.jpeg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.content27 {
+    grid-column: 7/8;
+    grid-row: 6/7;
+    background-color: rgba(253, 204, 141, 0.5);
+    border: none;
+}
+
+.content:hover {
+    opacity: 0.7;
+}
